@@ -105,6 +105,9 @@ function draw() {
     obstaclesGroup.setVelocityXEach(0);
     cloudsGroup.setVelocityXEach(0);
     
+    camera.position.x = trex.x
+    camera.position.y = trex.y
+    
     //change the trex animation
     trex.changeAnimation("collided",trex_collided);
     
